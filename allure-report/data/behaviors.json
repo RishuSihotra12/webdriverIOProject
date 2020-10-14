@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "do drag and drop",
+    "uid" : "9e5ab6cdd3a124c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602663792396,
+      "stop" : 1602663800619,
+      "duration" : 8223
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-85.0.4183.121" ]
+  }, {
+    "name" : "Enter Username",
+    "uid" : "aa7335c9541a11ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602664854341,
+      "stop" : 1602664869938,
+      "duration" : 15597
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-85.0.4183.121" ]
+  } ]
+}

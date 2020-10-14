@@ -1,0 +1,246 @@
+{
+  "uid" : "1a6e11f40b5e771f",
+  "name" : "do drag and drop",
+  "fullName" : "drag and drop actions feature.do drag and drop",
+  "historyId" : "592b20fa4e527ab7458841bfce21c8ab",
+  "time" : {
+    "start" : 1602250414886,
+    "stop" : 1602250422164,
+    "duration" : 7278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1602250414934,
+        "stop" : 1602250417017,
+        "duration" : 2083
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33c9524f69f0d4c6",
+        "name" : "Request",
+        "source" : "33c9524f69f0d4c6.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1602250417019,
+        "stop" : 1602250417042,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28a20fbcb050b7df",
+        "name" : "Request",
+        "source" : "28a20fbcb050b7df.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "9cf00e7edf3496ba",
+        "name" : "Response",
+        "source" : "9cf00e7edf3496ba.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1602250417047,
+        "stop" : 1602250417066,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7366d9edf3acd86",
+        "name" : "Request",
+        "source" : "b7366d9edf3acd86.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "6c75edbef35ae6d2",
+        "name" : "Response",
+        "source" : "6c75edbef35ae6d2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1602250417068,
+        "stop" : 1602250417076,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f51b2706f20ec771",
+        "name" : "Request",
+        "source" : "f51b2706f20ec771.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "ff272f1937d84746",
+        "name" : "Response",
+        "source" : "ff272f1937d84746.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/291ee19b-c131-4414-b3f0-39c185913c6b/rect",
+      "time" : {
+        "start" : 1602250417077,
+        "stop" : 1602250417090,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a231e3c4d23a669",
+        "name" : "Response",
+        "source" : "7a231e3c4d23a669.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/bffaec17-ca49-4a06-ba3e-c0f77e05ee39/rect",
+      "time" : {
+        "start" : 1602250417090,
+        "stop" : 1602250417100,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "162187016869b3c4",
+        "name" : "Response",
+        "source" : "162187016869b3c4.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1602250417100,
+        "stop" : 1602250417156,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42b67fed17a9e243",
+        "name" : "Request",
+        "source" : "42b67fed17a9e243.json",
+        "type" : "application/json",
+        "size" : 658
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1602250417156,
+        "stop" : 1602250417159,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "drag and drop actions feature"
+  }, {
+    "name" : "testClass",
+    "value" : "drag and drop actions feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "do drag and drop"
+  }, {
+    "name" : "package",
+    "value" : "drag and drop actions feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a6e11f40b5e771f.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

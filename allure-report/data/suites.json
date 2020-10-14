@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "drag and drop actions feature",
+    "children" : [ {
+      "name" : "do drag and drop",
+      "uid" : "9e5ab6cdd3a124c6",
+      "parentUid" : "668579fd71ba52c24d342b141fa42935",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602663792396,
+        "stop" : 1602663800619,
+        "duration" : 8223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "668579fd71ba52c24d342b141fa42935"
+  }, {
+    "name" : "Handle Application Login",
+    "children" : [ {
+      "name" : "Enter Username",
+      "uid" : "aa7335c9541a11ed",
+      "parentUid" : "4db0d882b6a1b28e4b8ce30857cc6fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602664854341,
+        "stop" : 1602664869938,
+        "duration" : 15597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-85.0.4183.121" ]
+    } ],
+    "uid" : "4db0d882b6a1b28e4b8ce30857cc6fb0"
+  } ]
+}

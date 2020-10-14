@@ -1,0 +1,21 @@
+[ {
+  "uid" : "aa7335c9541a11ed",
+  "name" : "Enter Username",
+  "time" : {
+    "start" : 1602664854341,
+    "stop" : 1602664869938,
+    "duration" : 15597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e5ab6cdd3a124c6",
+  "name" : "do drag and drop",
+  "time" : {
+    "start" : 1602663792396,
+    "stop" : 1602663800619,
+    "duration" : 8223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
